@@ -1,19 +1,24 @@
 body {
-  background-color: rgb(255, 255, 235); margin: 10%;
+  background-color: rgb(194, 161, 161); margin: 10%;
 }
 
 h1 {
-  color: rgb(32, 4, 4);
+  color: rgb(40, 1, 1);
   text-align: center;
   font-family: MoonB;
-  font: size 150%;
+  font-size: 350%;
 }
 
-h2 {font-family: Glass; text-align: center;}
+h2 {font-family: Glass; text-align: center;font-size: 200%;color: rgb(45, 7, 7);}
 
-p {font-family: Glass;}
+p {font-family: Armo;font-size: 150%;color: rgb(72, 14, 14);border: 40px;padding-left: 20px;padding-right: 20px;}
 
-ul {font-family: Gio;}
+ul {font-family: MoonB; font-size: 250%;color: rgb(131, 14, 14);}
+
+div { width: 1020px;
+  border: 20px solid rgb(128, 0, 0);
+  padding: 20px;
+  margin: 20px;}
 
 @font-face {
   font-family: Glass; /* set name */
@@ -40,6 +45,10 @@ ul {font-family: Gio;}
   src: url(GiovanySignature-KVery.otf); /* url of the font */
 }
 
+@font-face {
+  font-family:Armo; /* set name */
+  src: url(Amored-woVYP.ttf); /* url of the font */
+}
 
 
 
