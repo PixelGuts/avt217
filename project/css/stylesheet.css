@@ -13,7 +13,6 @@ body {
   height: 100px;
 }
 
-nav {text-align: center;background-color: rgb(0, 21, 255); display: inline; margin: 0 auto;}
 
 .topnav a {
   float: left;
@@ -49,6 +48,8 @@ nav {text-align: center;background-color: rgb(0, 21, 255); display: inline; marg
 
 .medtext {text-align: center;font-family: Oai;color: #EDE4C3;font-size: 55px;padding-bottom: 15%;}
 
+
+
 .footnav { background-color: #161716;
   overflow: hidden;
   height: 100px;}
@@ -62,16 +63,31 @@ nav {text-align: center;background-color: rgb(0, 21, 255); display: inline; marg
   font-family: Oai;
 }
 
-.socialimage{
-    width: 85px;
-    height: 85px;
-    border-radius: 0;
-    overflow: hidden;
-    margin-bottom: -6px;}
+a {text-decoration:none; }
+
+.socialimage{padding-left: 10px;padding-right: 10px;}
+
+.foottext {padding-top: 25px;}
+
+footer {text-align: center;
+  padding: 25px;
+  background-color: #161716;
+  color: #EDE4C3; font-family: Oai;}
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px; padding: 25px; text-align: center;
+    }
+
+.album {padding: 15px;}
+
+h1 {font-size: 45px;font-family: Granite; padding: 15px;}
 
     @font-face {
   font-family: Punk;
   src: url(PunkrockshowRegular-xP4m.ttf);
+
 }
 
     @font-face {
