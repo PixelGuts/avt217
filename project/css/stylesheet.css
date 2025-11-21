@@ -54,6 +54,23 @@ body {
 .medtext {text-align: center;font-family: Oai;color: #EDE4C3;font-size: 55px;padding-bottom: 15%;padding-left: 5%; padding-right: 5%;}
 
 
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.container div {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
 
 .footnav { background-color: #161716;
   overflow: hidden;
