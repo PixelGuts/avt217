@@ -58,11 +58,18 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
+  text-align: center;
+  font-family: Granite;
+  color: #EDE4C3; 
+  padding-top: 25px;
 }
 .container div {
   padding: 10px;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
+  font-family: Granite;
+  color: #EDE4C3; 
+  padding-top: 25px;
 }
 
 
@@ -96,13 +103,7 @@ footer {text-align: center;
   background-color: #161716;
   color: #EDE4C3; font-family: Oai;}
 
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px; padding: 25px; text-align: center;
-    }
-
-.album {padding: 15px;}
+   
 
 h1 {font-size: 45px;font-family: Granite; padding: 15px;}
 
