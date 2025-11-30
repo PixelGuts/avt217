@@ -74,6 +74,19 @@ body {
 
 
 
+.button {
+  border: none;
+  color: #161716;
+  padding: 50px 176px;
+  text-align: center;
+  text-decoration: none; font-family: Granite;
+  display: inline-block;
+  font-size: 55px;
+  margin: 20px 20px;
+  cursor: pointer; border-radius: 5%;
+}
+
+.button1 {background-color: #EDE4C3;} 
 
 
 
